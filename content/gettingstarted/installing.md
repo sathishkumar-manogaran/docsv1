@@ -20,6 +20,11 @@ Once installed, the `wails update` command may be used for subsequent updates.
 To get the latest [pre-release]({{< relref "/development/_index.md#branch-workflow" >}}) with bleeding-edge features the `-pre` flag can be appended `wails update -pre`.
 {{% /notice %}}
 
+{{% notice tip %}}
+If you are using zsh in your system, please export the wails path before proceeding. By adding below commands in .zshrc
+`export PATH=/Users/{username}/go/bin/:$PATH`.
+{{% /notice %}}
+
 ### Setup
 
 To finish the installation setup your Wails system by running the [setup command]({{< relref "/reference/cli.md#setup" >}}) `wails setup` and filling your handle and email.
